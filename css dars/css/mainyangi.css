@@ -1,0 +1,89 @@
+/* 
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all 3s;
+    animation-name:toRight ;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.box:hover{
+    transform: translateX(500px);
+}
+
+
+
+@keyframes toRight {
+
+from{
+background-color: #ffce00;
+}
+
+to{
+    transform: translateX(500px);
+}
+
+} */
+
+
+button{
+    margin-bottom: 200px;
+    width: 380px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    background-color: orange;
+    animation-name: toRide;
+    animation-delay:3s ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border: none;
+}
+
+
+button:hover{
+    box-shadow: darkred 4px;
+}
+
+
+    @keyframes toRide{
+        from{
+            border-radius: 10px;
+            box-shadow: 0 0 0 20px rgba(204,169,44,0);
+        }
+
+        to{
+            border-radius: 10px;
+            box-shadow: 0 0 0 0 rgba(204, 169, 44, 0)
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+body{
+            
+    background-color:#E3516E;
+   
+  }
+ 
+  div{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+    border-radius:50%;
+    overflow:hidden;
+}
+  
+  span{
+  width: 50%;
+  height: 50%;
+}
+
+span:nth-child(1){
+  background: #51B5A9;
+}
+
+
+span:nth-child(2){
+  background: #FADE8B;
+
+}
+
+span:nth-child(3){
+  background: #F7F3D7;

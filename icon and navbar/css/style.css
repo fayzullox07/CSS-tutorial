@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav{
+  margin: 20px;
+  
+}
+
+header nav ul{
+    
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+
+}
+
+header nav ul li{
+display: inline-block;
+list-style: none;
+left: 65px;
+margin-left: 55px;
+position: relative;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    outline: none;
+    
+}
+
+
+.buton{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(52, 40, 216);
+}
+
+
+section{
+    font-family: 'Roboto', sans-serif;  
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+section nav ul{
+    position: absolute;
+
+}
+
+
+section ul li{
+display: inline-block;
+list-style: none;
+left: 85px;
+margin-left: 80px;
+margin-top: -11px;
+position: relative;
+}
+
+
+section ul li a{
+    text-decoration: none;
+    list-style: none;
+    outline: none;    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#search{
+    margin-left: 150px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.p{
+    text-align: center;
+}
+
+
+
+
+.p{
+    overflow:hidden;
+    border-top-right-radius: 
+   border-bottom-right-radius: ;
+    border-bottom-left-radius: ;
+}
+
+
+.flag ul{
+    position: absolute;
+    margin: 2   0px;
+}
+
+.flag ul li{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+
+
+}
+
+
+.div{
+    width: 350px;
+    height: 240px;
+    border: 1px solid;
+}
+
+.box{
+    width: 350px;
+    height: 240px;
+    border: 1px solid;
+
+}
+
+.divs{
+    width: 350px;
+    height: 240px;
+    border: 1px solid;
+
+}
+
+.face {
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    background-color: darkslategray;
+}
+
+.img{
+    width: 80px;
+    height: 70px;
+    background-color: none;
+    margin-left: 150px;
+}
+
+#image{
+    width: 80px;
+    height: 70px;
+    background-color: none;
+    margin-left:130px ;
+}
+
+h3{
+    display: block;
+}
+   
+.fly{
+    text-align: center;
+    margin-top: 40px;
+    /* display: flex;
+    flex-direction: row; */
+}

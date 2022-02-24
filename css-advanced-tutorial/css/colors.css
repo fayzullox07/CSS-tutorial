@@ -1,0 +1,8 @@
+:root{
+	--kok:#003f5c;
+	--pushti:#ef5675;
+
+}
+.transition{
+	transition: all 0.2s;
+}

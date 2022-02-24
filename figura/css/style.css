@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.div ul{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.div ul li a{
+    color: rgb(12, 12, 12);
+    margin: 30px;
+    text-decoration: none;
+}
+    
+#from{
+   left: 300px; 
+    
+}
+
+#run{
+    margin-left: 750px;
+    color: none;
+    color: red;
+}
+
+.h{
+   position: relative;
+   line-height: 35px;
+   text-align: left;
+   color: rgb(255, 10, 92);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.get{
+
+    margin: 30px;
+    width: 450px;
+    height: 400px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    display: block;
+
+}
+
+.button{
+    margin-top:60px ;
+    
+    width: 130px;
+    height: 40px;
+    border-radius:30px ;
+    border: none;
+    background-color: rgb(255, 10, 92);;
+}
+
+.buttons{
+    width: 200px;
+    height: 40px;
+    border-radius:30px ;
+    border: none;
+    background-color:salmon;
+    margin-left: 50px;
+}
+
+
+
+#img{
+width: 200px;
+height: 220px;
+margin-left: 200px;
+}
+
+
+
